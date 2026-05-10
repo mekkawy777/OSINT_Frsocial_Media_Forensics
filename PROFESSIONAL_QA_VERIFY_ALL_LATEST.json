@@ -1,0 +1,206 @@
+{
+  "suite": "OSINT Forensics University QA",
+  "started_at": "2026-05-09T01:56:09.949070Z",
+  "finished_at": "2026-05-09T01:56:16.668379Z",
+  "passed": true,
+  "checks_passed": 16,
+  "checks_total": 16,
+  "failed_checks": [],
+  "checks": [
+    {
+      "name": "offline_demo_pipeline",
+      "passed": true,
+      "details": {
+        "case_id": "qa_university_project"
+      }
+    },
+    {
+      "name": "hash_integrity",
+      "passed": true,
+      "details": {
+        "ok": 18,
+        "issues": 0
+      }
+    },
+    {
+      "name": "final_outputs_exist",
+      "passed": true,
+      "details": {
+        "missing": [],
+        "checked": [
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/reports/report_latest.html",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/reports/report_latest.md",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/graphs/network_latest.png",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/graphs/network_latest.json",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/graphs/network_interactive_latest.html",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/exports/evidence_inventory.csv",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/exports/evidence_manifest.json",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/exports/chain_of_custody.json",
+          "/tmp/osint_qa_idhoxqa2/data/qa_university_project/exports/qa_university_project_evidence_bundle.zip"
+        ]
+      }
+    },
+    {
+      "name": "username_accuracy_404_not_surfaced",
+      "passed": true,
+      "details": {
+        "verified_hits": 2,
+        "bad_404_surface": []
+      }
+    },
+    {
+      "name": "target_dedupe",
+      "passed": true,
+      "details": {
+        "first": {
+          "id": "T0001",
+          "case_id": "qa_university_project",
+          "type": "Username",
+          "value": "example",
+          "priority": "High",
+          "tags": [
+            "qa"
+          ],
+          "notes": "duplicate test",
+          "status": "Pending",
+          "created_at": "2026-05-09T01:56:11.516685Z",
+          "updated_at": "2026-05-09T01:56:11.516700Z",
+          "dedupe": "created"
+        },
+        "second": {
+          "id": "T0001",
+          "case_id": "qa_university_project",
+          "type": "Username",
+          "value": "example",
+          "priority": "High",
+          "tags": [
+            "qa"
+          ],
+          "notes": "duplicate test",
+          "status": "Pending",
+          "created_at": "2026-05-09T01:56:11.516685Z",
+          "updated_at": "2026-05-09T01:56:11.516700Z",
+          "dedupe": "existing"
+        }
+      }
+    },
+    {
+      "name": "analyst_notes",
+      "passed": true,
+      "details": {
+        "note_id": 1
+      }
+    },
+    {
+      "name": "historical_archive_demo",
+      "passed": true,
+      "details": {
+        "snapshot_count": 4
+      }
+    },
+    {
+      "name": "report_structure_and_noise_filter",
+      "passed": true,
+      "details": {
+        "missing_sections": [],
+        "noise_found": []
+      }
+    },
+    {
+      "name": "follow_public_linked_accounts",
+      "passed": true,
+      "details": {
+        "added": [
+          "https://github.com/followdemo",
+          "https://www.youtube.com/@followdemo"
+        ]
+      }
+    },
+    {
+      "name": "embedded_profile_bio_links_contacts",
+      "passed": true,
+      "details": {
+        "links": [
+          "https://wa.me/201001234567",
+          "https://linktr.ee/demo_coach",
+          "https://youtube.com/@demo_coach",
+          "https://www.tiktok.com/@demo_coach",
+          "https://www.instagram.com/demo_coach"
+        ],
+        "contacts": {
+          "emails_masked": [
+            "co***@example.com"
+          ],
+          "phones_raw": [
+            "+201001234567"
+          ],
+          "phones_masked": [
+            "+201001234567"
+          ],
+          "email_count": 1,
+          "phone_count": 1,
+          "contact_links": [
+            "https://wa.me/201001234567"
+          ],
+          "note": "Phone masking is disabled in this build: public/self-published phone values are shown in full. Use only when lawful and case-relevant."
+        }
+      }
+    },
+    {
+      "name": "public_interaction_extraction",
+      "passed": true,
+      "details": {
+        "count": 3,
+        "mentions": [
+          "@alpha",
+          "@beta",
+          "@gamma"
+        ]
+      }
+    },
+    {
+      "name": "private_url_scope_guard",
+      "passed": true,
+      "details": {
+        "rejected": [
+          "http://127.0.0.1/admin",
+          "http://localhost:8000",
+          "http://169.254.169.254/latest/meta-data/"
+        ]
+      }
+    },
+    {
+      "name": "chain_of_custody_export",
+      "passed": true,
+      "details": {
+        "path": "/tmp/osint_qa_idhoxqa2/data/qa_university_project/exports/chain_of_custody.json",
+        "records": 17
+      }
+    },
+    {
+      "name": "graph_community_metrics",
+      "passed": true,
+      "details": {
+        "communities": 4
+      }
+    },
+    {
+      "name": "workflow_status_health",
+      "passed": true,
+      "details": {
+        "percent": 100,
+        "grade": "Ready"
+      }
+    },
+    {
+      "name": "system_doctor",
+      "passed": true,
+      "details": {
+        "ready": false,
+        "python": "3.13.5"
+      }
+    }
+  ],
+  "artifacts_base_dir": "/tmp/osint_qa_idhoxqa2/data",
+  "note": "Offline deterministic QA validates core functions. Live website results still depend on each platform's public accessibility, rate limits, and JavaScript/login gates."
+}

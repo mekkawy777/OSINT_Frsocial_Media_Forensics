@@ -1,0 +1,1798 @@
+{
+  "demo": {
+    "case_id": "smoke_test_final",
+    "archived": [
+      {
+        "archive": {
+          "evidence_id": 35,
+          "snapshot_dir": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+          "metadata": {
+            "case_id": "smoke_test_final",
+            "url": "https://example.com",
+            "title": "Example Investigator Profile",
+            "collected_at": "2026-05-08T21:06:16.492221Z",
+            "method": "static_demo",
+            "status_code": 200,
+            "headers": {},
+            "html_sha256": "8d3c227ef55af5f763972768c370459a24e3db0693596bbed2a2b4cf97009277",
+            "text_sha256": "c775fd25e546ad62837e0cb01933c87532b16340a7df0f64f85d3b376ae0b408",
+            "screenshot": null,
+            "screenshot_sha256": null,
+            "collection_error": null,
+            "note": "Deterministic local demo snapshot; use archive_url for live public collection."
+          }
+        },
+        "profile": {
+          "case_id": "smoke_test_final",
+          "snapshot_dir": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+          "extracted_at": "2026-05-08T21:06:16.571165Z",
+          "title": "Example Investigator Profile",
+          "description": "Example public account. Based in Cairo. @iana collaborator.",
+          "canonical_url": "https://example.com",
+          "og": {
+            "description": "Public demo profile with 12K followers and links."
+          },
+          "handles_found": [
+            "example",
+            "example_ops",
+            "iana"
+          ],
+          "links": [
+            "https://github.com/example",
+            "https://www.youtube.com/@example"
+          ],
+          "classified_links": [
+            {
+              "url": "https://github.com/example",
+              "host": "github.com",
+              "platform": "GitHub"
+            },
+            {
+              "url": "https://www.youtube.com/@example",
+              "host": "youtube.com",
+              "platform": "YouTube"
+            }
+          ],
+          "linked_accounts": [
+            {
+              "url": "https://github.com/example",
+              "host": "github.com",
+              "platform": "GitHub"
+            },
+            {
+              "url": "https://www.youtube.com/@example",
+              "host": "youtube.com",
+              "platform": "YouTube"
+            }
+          ],
+          "bio_candidates": [
+            "Example public account. Based in Cairo. @iana collaborator.",
+            "Public demo profile with 12K followers and links.",
+            "Bio: public demo account based in Cairo. 12K followers, 120 following.",
+            "Mentioned @iana and @example_ops in archived post."
+          ],
+          "follower_signals": [
+            "12K followers",
+            "120 following"
+          ],
+          "location_hints": [
+            "Cairo. 12K followers"
+          ],
+          "country_signals": [
+            "Cairo"
+          ],
+          "date_signals": [],
+          "contact_signals": {
+            "emails_masked": [],
+            "phones_masked": [],
+            "email_count": 0,
+            "phone_count": 0,
+            "note": "Sensitive contact details are masked by default and should only be used when lawfully self-published and relevant to the investigation scope."
+          },
+          "image_signals": [],
+          "account_metadata": {
+            "meta_tags": {
+              "og": {
+                "description": "Public demo profile with 12K followers and links."
+              },
+              "title": "Example Investigator Profile",
+              "description": "Example public account. Based in Cairo. @iana collaborator.",
+              "canonical_url": "https://example.com"
+            },
+            "link_count": 2,
+            "linked_account_count": 2,
+            "text_length": 174,
+            "public_collection_only": true
+          },
+          "evidence_id": 36
+        }
+      },
+      {
+        "archive": {
+          "evidence_id": 37,
+          "snapshot_dir": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+          "metadata": {
+            "case_id": "smoke_test_final",
+            "url": "https://www.iana.org/domains/example",
+            "title": "IANA Example Profile",
+            "collected_at": "2026-05-08T21:06:16.657498Z",
+            "method": "static_demo",
+            "status_code": 200,
+            "headers": {},
+            "html_sha256": "c39f6da340b0a9450dcdc83743f1583e819d2b48e57567d71d9e1348e371fbcf",
+            "text_sha256": "35e743796331758a81b34656077181552a7e3b62b61457ec21b6dd598cdb3e1b",
+            "screenshot": null,
+            "screenshot_sha256": null,
+            "collection_error": null,
+            "note": "Deterministic local demo snapshot; use archive_url for live public collection."
+          }
+        },
+        "profile": {
+          "case_id": "smoke_test_final",
+          "snapshot_dir": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+          "extracted_at": "2026-05-08T21:06:16.668274Z",
+          "title": "IANA Example Profile",
+          "description": "IANA public example contact. Location: Los Angeles. @example connection.",
+          "canonical_url": "https://www.iana.org/domains/example",
+          "og": {},
+          "handles_found": [
+            "example",
+            "iana"
+          ],
+          "links": [
+            "https://example.com",
+            "https://github.com/iana"
+          ],
+          "classified_links": [
+            {
+              "url": "https://example.com",
+              "host": "example.com",
+              "platform": "Website"
+            },
+            {
+              "url": "https://github.com/iana",
+              "host": "github.com",
+              "platform": "GitHub"
+            }
+          ],
+          "linked_accounts": [
+            {
+              "url": "https://github.com/iana",
+              "host": "github.com",
+              "platform": "GitHub"
+            }
+          ],
+          "bio_candidates": [
+            "IANA public example contact. Location: Los Angeles. @example connection.",
+            "Public profile page: 3K followers, 55 following.",
+            "Interactions with @example appear in public demo content."
+          ],
+          "follower_signals": [
+            "3K followers",
+            "55 following"
+          ],
+          "location_hints": [],
+          "country_signals": [
+            "Los Angeles"
+          ],
+          "date_signals": [],
+          "contact_signals": {
+            "emails_masked": [],
+            "phones_masked": [],
+            "email_count": 0,
+            "phone_count": 0,
+            "note": "Sensitive contact details are masked by default and should only be used when lawfully self-published and relevant to the investigation scope."
+          },
+          "image_signals": [],
+          "account_metadata": {
+            "meta_tags": {
+              "og": {},
+              "title": "IANA Example Profile",
+              "description": "IANA public example contact. Location: Los Angeles. @example connection.",
+              "canonical_url": "https://www.iana.org/domains/example"
+            },
+            "link_count": 2,
+            "linked_account_count": 1,
+            "text_length": 156,
+            "public_collection_only": true
+          },
+          "evidence_id": 38
+        }
+      }
+    ],
+    "usernames": [
+      {
+        "case_id": "smoke_test_final",
+        "username": "example",
+        "searched_at": "2026-05-08T21:06:16.676251Z",
+        "results": [
+          {
+            "platform": "GitHub",
+            "checked_url": "https://github.com/example",
+            "url": "https://github.com/example",
+            "status_code": 200,
+            "final_url": "https://github.com/example",
+            "exists_likely": true,
+            "verified_public_url": true,
+            "confidence": 0.9,
+            "reason": "Demo profile response validated.",
+            "checked_at": "2026-05-08T21:06:16.675023Z",
+            "content_hash_prefix": "demo"
+          },
+          {
+            "platform": "YouTube",
+            "checked_url": "https://www.youtube.com/@example",
+            "url": "https://www.youtube.com/@example",
+            "status_code": 200,
+            "final_url": "https://www.youtube.com/@example",
+            "exists_likely": true,
+            "verified_public_url": true,
+            "confidence": 0.78,
+            "reason": "Demo handle response validated.",
+            "checked_at": "2026-05-08T21:06:16.675041Z",
+            "content_hash_prefix": "demo"
+          },
+          {
+            "platform": "Reddit",
+            "checked_url": "https://www.reddit.com/user/example",
+            "url": "",
+            "status_code": 404,
+            "final_url": "https://www.reddit.com/user/example",
+            "exists_likely": false,
+            "verified_public_url": false,
+            "confidence": 0.0,
+            "reason": "404/not found; link is kept as checked_url only, not surfaced as a result.",
+            "checked_at": "2026-05-08T21:06:16.675047Z",
+            "content_hash_prefix": "demo"
+          }
+        ],
+        "mode": "static_demo",
+        "accuracy_mode": "verified-links-only",
+        "evidence_id": 39
+      },
+      {
+        "case_id": "smoke_test_final",
+        "username": "iana",
+        "searched_at": "2026-05-08T21:06:16.685633Z",
+        "results": [
+          {
+            "platform": "GitHub",
+            "checked_url": "https://github.com/iana",
+            "url": "https://github.com/iana",
+            "status_code": 200,
+            "final_url": "https://github.com/iana",
+            "exists_likely": true,
+            "verified_public_url": true,
+            "confidence": 0.9,
+            "reason": "Demo profile response validated.",
+            "checked_at": "2026-05-08T21:06:16.684141Z",
+            "content_hash_prefix": "demo"
+          },
+          {
+            "platform": "YouTube",
+            "checked_url": "https://www.youtube.com/@iana",
+            "url": "https://www.youtube.com/@iana",
+            "status_code": 200,
+            "final_url": "https://www.youtube.com/@iana",
+            "exists_likely": true,
+            "verified_public_url": true,
+            "confidence": 0.78,
+            "reason": "Demo handle response validated.",
+            "checked_at": "2026-05-08T21:06:16.684159Z",
+            "content_hash_prefix": "demo"
+          },
+          {
+            "platform": "Reddit",
+            "checked_url": "https://www.reddit.com/user/iana",
+            "url": "",
+            "status_code": 404,
+            "final_url": "https://www.reddit.com/user/iana",
+            "exists_likely": false,
+            "verified_public_url": false,
+            "confidence": 0.0,
+            "reason": "404/not found; link is kept as checked_url only, not surfaced as a result.",
+            "checked_at": "2026-05-08T21:06:16.684165Z",
+            "content_hash_prefix": "demo"
+          }
+        ],
+        "mode": "static_demo",
+        "accuracy_mode": "verified-links-only",
+        "evidence_id": 40
+      }
+    ],
+    "recovery": [
+      {
+        "case_id": "smoke_test_final",
+        "url": "https://example.com",
+        "queried_at": "2026-05-08T21:06:16.759579Z",
+        "scope": "Static demo of public Internet Archive-style records.",
+        "snapshots": [
+          {
+            "timestamp": "20240101000000",
+            "original": "https://example.com",
+            "status_code": "200",
+            "mimetype": "text/html",
+            "digest": "DEMO1",
+            "archive_url": "https://web.archive.org/web/20240101000000/https://example.com"
+          },
+          {
+            "timestamp": "20240701000000",
+            "original": "https://example.com",
+            "status_code": "200",
+            "mimetype": "text/html",
+            "digest": "DEMO2",
+            "archive_url": "https://web.archive.org/web/20240701000000/https://example.com"
+          }
+        ],
+        "error": null,
+        "mode": "static_demo",
+        "evidence_id": 41
+      },
+      {
+        "case_id": "smoke_test_final",
+        "url": "https://www.iana.org/domains/example",
+        "queried_at": "2026-05-08T21:06:16.772617Z",
+        "scope": "Static demo of public Internet Archive-style records.",
+        "snapshots": [
+          {
+            "timestamp": "20240101000000",
+            "original": "https://www.iana.org/domains/example",
+            "status_code": "200",
+            "mimetype": "text/html",
+            "digest": "DEMO1",
+            "archive_url": "https://web.archive.org/web/20240101000000/https://www.iana.org/domains/example"
+          },
+          {
+            "timestamp": "20240701000000",
+            "original": "https://www.iana.org/domains/example",
+            "status_code": "200",
+            "mimetype": "text/html",
+            "digest": "DEMO2",
+            "archive_url": "https://web.archive.org/web/20240701000000/https://www.iana.org/domains/example"
+          }
+        ],
+        "error": null,
+        "mode": "static_demo",
+        "evidence_id": 42
+      }
+    ],
+    "graph": {
+      "nodes": 9,
+      "edges": 13,
+      "metrics": {
+        "density": 0.3611111111111111,
+        "connected_components": 1,
+        "top_degree": [
+          [
+            "https://example.com",
+            0.75
+          ],
+          [
+            "@example",
+            0.5
+          ],
+          [
+            "@iana",
+            0.5
+          ],
+          [
+            "https://www.iana.org/domains/example",
+            0.5
+          ],
+          [
+            "https://github.com/example",
+            0.25
+          ],
+          [
+            "https://www.youtube.com/@example",
+            0.25
+          ],
+          [
+            "https://github.com/iana",
+            0.25
+          ],
+          [
+            "@example_ops",
+            0.125
+          ],
+          [
+            "https://www.youtube.com/@iana",
+            0.125
+          ]
+        ],
+        "top_betweenness": [
+          [
+            "https://example.com",
+            0.5297619047619047
+          ],
+          [
+            "@iana",
+            0.3095238095238095
+          ],
+          [
+            "https://www.iana.org/domains/example",
+            0.15476190476190477
+          ],
+          [
+            "@example",
+            0.07738095238095237
+          ],
+          [
+            "@example_ops",
+            0.0
+          ],
+          [
+            "https://github.com/example",
+            0.0
+          ],
+          [
+            "https://www.youtube.com/@example",
+            0.0
+          ],
+          [
+            "https://github.com/iana",
+            0.0
+          ],
+          [
+            "https://www.youtube.com/@iana",
+            0.0
+          ]
+        ],
+        "relationship_strength_summary": {
+          "max_weight": 2.7,
+          "avg_weight": 1.8523076923076922
+        }
+      },
+      "paths": {
+        "png": "data/smoke_test_final/graphs/network_latest.png",
+        "gexf": "data/smoke_test_final/graphs/network_latest.gexf",
+        "json": "data/smoke_test_final/graphs/network_latest.json",
+        "interactive_html": "data/smoke_test_final/graphs/network_interactive_latest.html"
+      }
+    },
+    "report": {
+      "html": "data/smoke_test_final/reports/report_latest.html",
+      "markdown": "data/smoke_test_final/reports/report_latest.md",
+      "manifest": "data/smoke_test_final/exports/evidence_manifest.json",
+      "csv": "data/smoke_test_final/exports/evidence_inventory.csv",
+      "bundle": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+      "records": 12,
+      "summary": {
+        "verified_username_hits": 4,
+        "account_cards": 4,
+        "nodes": 9,
+        "edges": 13,
+        "verification": {
+          "case_id": "smoke_test_final",
+          "verified_at": "2026-05-08T21:06:19.367886Z",
+          "ok": 12,
+          "issues": 0,
+          "results": [
+            {
+              "id": 35,
+              "kind": "snapshot",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+              "exists": true,
+              "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+              "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+              "status": "OK"
+            },
+            {
+              "id": 36,
+              "kind": "profile_extraction",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+              "exists": true,
+              "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+              "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+              "status": "OK"
+            },
+            {
+              "id": 37,
+              "kind": "snapshot",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+              "exists": true,
+              "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+              "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+              "status": "OK"
+            },
+            {
+              "id": 38,
+              "kind": "profile_extraction",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+              "exists": true,
+              "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+              "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+              "status": "OK"
+            },
+            {
+              "id": 39,
+              "kind": "username_cross_platform_search",
+              "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+              "exists": true,
+              "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+              "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+              "status": "OK"
+            },
+            {
+              "id": 40,
+              "kind": "username_cross_platform_search",
+              "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+              "exists": true,
+              "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+              "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+              "status": "OK"
+            },
+            {
+              "id": 41,
+              "kind": "public_historical_archive_lookup",
+              "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+              "exists": true,
+              "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+              "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+              "status": "OK"
+            },
+            {
+              "id": 42,
+              "kind": "public_historical_archive_lookup",
+              "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+              "exists": true,
+              "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+              "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+              "status": "OK"
+            },
+            {
+              "id": 43,
+              "kind": "network_graph_png",
+              "path": "data/smoke_test_final/graphs/network_latest.png",
+              "exists": true,
+              "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+              "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+              "status": "OK"
+            },
+            {
+              "id": 44,
+              "kind": "network_graph_gexf",
+              "path": "data/smoke_test_final/graphs/network_latest.gexf",
+              "exists": true,
+              "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+              "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+              "status": "OK"
+            },
+            {
+              "id": 45,
+              "kind": "network_graph_json",
+              "path": "data/smoke_test_final/graphs/network_latest.json",
+              "exists": true,
+              "expected_sha256": "15fc245f0b0eb0ba6cd9e0ffdb1628173ec942c07f9a8723dec14b53b4ae874d",
+              "current_sha256": "15fc245f0b0eb0ba6cd9e0ffdb1628173ec942c07f9a8723dec14b53b4ae874d",
+              "status": "OK"
+            },
+            {
+              "id": 46,
+              "kind": "network_graph_interactive_html",
+              "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+              "exists": true,
+              "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+              "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+              "status": "OK"
+            }
+          ]
+        }
+      }
+    },
+    "bundle": {
+      "csv": "data/smoke_test_final/exports/evidence_inventory.csv",
+      "manifest": "data/smoke_test_final/exports/evidence_manifest.json",
+      "bundle": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip"
+    },
+    "verification": {
+      "case_id": "smoke_test_final",
+      "verified_at": "2026-05-08T21:06:19.710585Z",
+      "ok": 17,
+      "issues": 0,
+      "results": [
+        {
+          "id": 35,
+          "kind": "snapshot",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+          "exists": true,
+          "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+          "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+          "status": "OK"
+        },
+        {
+          "id": 36,
+          "kind": "profile_extraction",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+          "exists": true,
+          "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+          "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+          "status": "OK"
+        },
+        {
+          "id": 37,
+          "kind": "snapshot",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+          "exists": true,
+          "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+          "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+          "status": "OK"
+        },
+        {
+          "id": 38,
+          "kind": "profile_extraction",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+          "exists": true,
+          "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+          "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+          "status": "OK"
+        },
+        {
+          "id": 39,
+          "kind": "username_cross_platform_search",
+          "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+          "exists": true,
+          "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+          "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+          "status": "OK"
+        },
+        {
+          "id": 40,
+          "kind": "username_cross_platform_search",
+          "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+          "exists": true,
+          "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+          "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+          "status": "OK"
+        },
+        {
+          "id": 41,
+          "kind": "public_historical_archive_lookup",
+          "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+          "exists": true,
+          "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+          "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+          "status": "OK"
+        },
+        {
+          "id": 42,
+          "kind": "public_historical_archive_lookup",
+          "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+          "exists": true,
+          "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+          "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+          "status": "OK"
+        },
+        {
+          "id": 43,
+          "kind": "network_graph_png",
+          "path": "data/smoke_test_final/graphs/network_latest.png",
+          "exists": true,
+          "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+          "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+          "status": "OK"
+        },
+        {
+          "id": 44,
+          "kind": "network_graph_gexf",
+          "path": "data/smoke_test_final/graphs/network_latest.gexf",
+          "exists": true,
+          "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+          "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+          "status": "OK"
+        },
+        {
+          "id": 45,
+          "kind": "network_graph_json",
+          "path": "data/smoke_test_final/graphs/network_latest.json",
+          "exists": true,
+          "expected_sha256": "15fc245f0b0eb0ba6cd9e0ffdb1628173ec942c07f9a8723dec14b53b4ae874d",
+          "current_sha256": "15fc245f0b0eb0ba6cd9e0ffdb1628173ec942c07f9a8723dec14b53b4ae874d",
+          "status": "OK"
+        },
+        {
+          "id": 46,
+          "kind": "network_graph_interactive_html",
+          "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+          "exists": true,
+          "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+          "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+          "status": "OK"
+        },
+        {
+          "id": 47,
+          "kind": "report_html",
+          "path": "data/smoke_test_final/reports/report_latest.html",
+          "exists": true,
+          "expected_sha256": "130788f8cea08f6ac5b33e32bea70eac1daeb5deffda2dea42eef19e835c8d61",
+          "current_sha256": "130788f8cea08f6ac5b33e32bea70eac1daeb5deffda2dea42eef19e835c8d61",
+          "status": "OK"
+        },
+        {
+          "id": 48,
+          "kind": "report_markdown",
+          "path": "data/smoke_test_final/reports/report_latest.md",
+          "exists": true,
+          "expected_sha256": "61eba3a3e724794f3d0b30baac90156861db7041928af218ffc7d529c63e6619",
+          "current_sha256": "61eba3a3e724794f3d0b30baac90156861db7041928af218ffc7d529c63e6619",
+          "status": "OK"
+        },
+        {
+          "id": 49,
+          "kind": "evidence_manifest",
+          "path": "data/smoke_test_final/exports/evidence_manifest.json",
+          "exists": true,
+          "expected_sha256": "7b34fc58df4e5b833967e7709217a62b3557f776261a637f464f570635e0995b",
+          "current_sha256": "7b34fc58df4e5b833967e7709217a62b3557f776261a637f464f570635e0995b",
+          "status": "OK"
+        },
+        {
+          "id": 50,
+          "kind": "evidence_inventory_csv",
+          "path": "data/smoke_test_final/exports/evidence_inventory.csv",
+          "exists": true,
+          "expected_sha256": "0d40a86bd4f2bf288c155fa7bf4a48e97e45193b08d12dbe02ee60cd854d1c14",
+          "current_sha256": "0d40a86bd4f2bf288c155fa7bf4a48e97e45193b08d12dbe02ee60cd854d1c14",
+          "status": "OK"
+        },
+        {
+          "id": 51,
+          "kind": "evidence_bundle_zip",
+          "path": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+          "exists": true,
+          "expected_sha256": "0f11fb8bf1385a3e9ecc66d8152d444a179ab06d2fcf5cecc01e011b748e16fa",
+          "current_sha256": "0f11fb8bf1385a3e9ecc66d8152d444a179ab06d2fcf5cecc01e011b748e16fa",
+          "status": "OK"
+        }
+      ]
+    },
+    "health": {
+      "case_id": "smoke_test_final",
+      "grade": "Ready",
+      "warnings": [],
+      "suggestions": [
+        "Add targets in Target Manager so every collection is tied to a case scope.",
+        "Add at least one analyst note before final export to document review status."
+      ],
+      "verification": {
+        "case_id": "smoke_test_final",
+        "verified_at": "2026-05-08T21:06:19.780531Z",
+        "ok": 17,
+        "issues": 0,
+        "results": [
+          {
+            "id": 35,
+            "kind": "snapshot",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+            "exists": true,
+            "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+            "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+            "status": "OK"
+          },
+          {
+            "id": 36,
+            "kind": "profile_extraction",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+            "exists": true,
+            "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+            "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+            "status": "OK"
+          },
+          {
+            "id": 37,
+            "kind": "snapshot",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+            "exists": true,
+            "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+            "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+            "status": "OK"
+          },
+          {
+            "id": 38,
+            "kind": "profile_extraction",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+            "exists": true,
+            "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+            "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+            "status": "OK"
+          },
+          {
+            "id": 39,
+            "kind": "username_cross_platform_search",
+            "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+            "exists": true,
+            "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+            "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+            "status": "OK"
+          },
+          {
+            "id": 40,
+            "kind": "username_cross_platform_search",
+            "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+            "exists": true,
+            "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+            "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+            "status": "OK"
+          },
+          {
+            "id": 41,
+            "kind": "public_historical_archive_lookup",
+            "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+            "exists": true,
+            "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+            "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+            "status": "OK"
+          },
+          {
+            "id": 42,
+            "kind": "public_historical_archive_lookup",
+            "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+            "exists": true,
+            "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+            "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+            "status": "OK"
+          },
+          {
+            "id": 43,
+            "kind": "network_graph_png",
+            "path": "data/smoke_test_final/graphs/network_latest.png",
+            "exists": true,
+            "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+            "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+            "status": "OK"
+          },
+          {
+            "id": 44,
+            "kind": "network_graph_gexf",
+            "path": "data/smoke_test_final/graphs/network_latest.gexf",
+            "exists": true,
+            "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+            "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+            "status": "OK"
+          },
+          {
+            "id": 45,
+            "kind": "network_graph_json",
+            "path": "data/smoke_test_final/graphs/network_latest.json",
+            "exists": true,
+            "expected_sha256": "15fc245f0b0eb0ba6cd9e0ffdb1628173ec942c07f9a8723dec14b53b4ae874d",
+            "current_sha256": "15fc245f0b0eb0ba6cd9e0ffdb1628173ec942c07f9a8723dec14b53b4ae874d",
+            "status": "OK"
+          },
+          {
+            "id": 46,
+            "kind": "network_graph_interactive_html",
+            "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+            "exists": true,
+            "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+            "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+            "status": "OK"
+          },
+          {
+            "id": 47,
+            "kind": "report_html",
+            "path": "data/smoke_test_final/reports/report_latest.html",
+            "exists": true,
+            "expected_sha256": "130788f8cea08f6ac5b33e32bea70eac1daeb5deffda2dea42eef19e835c8d61",
+            "current_sha256": "130788f8cea08f6ac5b33e32bea70eac1daeb5deffda2dea42eef19e835c8d61",
+            "status": "OK"
+          },
+          {
+            "id": 48,
+            "kind": "report_markdown",
+            "path": "data/smoke_test_final/reports/report_latest.md",
+            "exists": true,
+            "expected_sha256": "61eba3a3e724794f3d0b30baac90156861db7041928af218ffc7d529c63e6619",
+            "current_sha256": "61eba3a3e724794f3d0b30baac90156861db7041928af218ffc7d529c63e6619",
+            "status": "OK"
+          },
+          {
+            "id": 49,
+            "kind": "evidence_manifest",
+            "path": "data/smoke_test_final/exports/evidence_manifest.json",
+            "exists": true,
+            "expected_sha256": "7b34fc58df4e5b833967e7709217a62b3557f776261a637f464f570635e0995b",
+            "current_sha256": "7b34fc58df4e5b833967e7709217a62b3557f776261a637f464f570635e0995b",
+            "status": "OK"
+          },
+          {
+            "id": 50,
+            "kind": "evidence_inventory_csv",
+            "path": "data/smoke_test_final/exports/evidence_inventory.csv",
+            "exists": true,
+            "expected_sha256": "0d40a86bd4f2bf288c155fa7bf4a48e97e45193b08d12dbe02ee60cd854d1c14",
+            "current_sha256": "0d40a86bd4f2bf288c155fa7bf4a48e97e45193b08d12dbe02ee60cd854d1c14",
+            "status": "OK"
+          },
+          {
+            "id": 51,
+            "kind": "evidence_bundle_zip",
+            "path": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+            "exists": true,
+            "expected_sha256": "0f11fb8bf1385a3e9ecc66d8152d444a179ab06d2fcf5cecc01e011b748e16fa",
+            "current_sha256": "0f11fb8bf1385a3e9ecc66d8152d444a179ab06d2fcf5cecc01e011b748e16fa",
+            "status": "OK"
+          }
+        ]
+      },
+      "workflow": {
+        "case_id": "smoke_test_final",
+        "completed": 5,
+        "total": 7,
+        "percent": 71,
+        "steps": [
+          {
+            "name": "Create Case",
+            "done": true
+          },
+          {
+            "name": "Add Targets",
+            "done": false
+          },
+          {
+            "name": "Collect Evidence",
+            "done": true
+          },
+          {
+            "name": "Analyze Graph",
+            "done": true
+          },
+          {
+            "name": "Review Evidence",
+            "done": false
+          },
+          {
+            "name": "Generate Report",
+            "done": true
+          },
+          {
+            "name": "Export Bundle",
+            "done": true
+          }
+        ]
+      }
+    }
+  },
+  "final": {
+    "case_id": "smoke_test_final",
+    "graph": {
+      "nodes": 9,
+      "edges": 13,
+      "metrics": {
+        "density": 0.3611111111111111,
+        "connected_components": 1,
+        "top_degree": [
+          [
+            "https://example.com",
+            0.75
+          ],
+          [
+            "@example",
+            0.5
+          ],
+          [
+            "@iana",
+            0.5
+          ],
+          [
+            "https://www.iana.org/domains/example",
+            0.5
+          ],
+          [
+            "https://github.com/example",
+            0.25
+          ],
+          [
+            "https://www.youtube.com/@example",
+            0.25
+          ],
+          [
+            "https://github.com/iana",
+            0.25
+          ],
+          [
+            "@example_ops",
+            0.125
+          ],
+          [
+            "https://www.youtube.com/@iana",
+            0.125
+          ]
+        ],
+        "top_betweenness": [
+          [
+            "https://example.com",
+            0.5297619047619047
+          ],
+          [
+            "@iana",
+            0.3095238095238095
+          ],
+          [
+            "https://www.iana.org/domains/example",
+            0.15476190476190477
+          ],
+          [
+            "@example",
+            0.07738095238095237
+          ],
+          [
+            "@example_ops",
+            0.0
+          ],
+          [
+            "https://github.com/example",
+            0.0
+          ],
+          [
+            "https://www.youtube.com/@example",
+            0.0
+          ],
+          [
+            "https://github.com/iana",
+            0.0
+          ],
+          [
+            "https://www.youtube.com/@iana",
+            0.0
+          ]
+        ],
+        "relationship_strength_summary": {
+          "max_weight": 2.7,
+          "avg_weight": 1.8523076923076922
+        }
+      },
+      "paths": {
+        "png": "data/smoke_test_final/graphs/network_latest.png",
+        "gexf": "data/smoke_test_final/graphs/network_latest.gexf",
+        "json": "data/smoke_test_final/graphs/network_latest.json",
+        "interactive_html": "data/smoke_test_final/graphs/network_interactive_latest.html"
+      }
+    },
+    "report": {
+      "html": "data/smoke_test_final/reports/report_latest.html",
+      "markdown": "data/smoke_test_final/reports/report_latest.md",
+      "manifest": "data/smoke_test_final/exports/evidence_manifest.json",
+      "csv": "data/smoke_test_final/exports/evidence_inventory.csv",
+      "bundle": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+      "records": 17,
+      "summary": {
+        "verified_username_hits": 4,
+        "account_cards": 4,
+        "nodes": 9,
+        "edges": 13,
+        "verification": {
+          "case_id": "smoke_test_final",
+          "verified_at": "2026-05-08T21:06:20.867524Z",
+          "ok": 14,
+          "issues": 3,
+          "results": [
+            {
+              "id": 35,
+              "kind": "snapshot",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+              "exists": true,
+              "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+              "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+              "status": "OK"
+            },
+            {
+              "id": 36,
+              "kind": "profile_extraction",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+              "exists": true,
+              "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+              "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+              "status": "OK"
+            },
+            {
+              "id": 37,
+              "kind": "snapshot",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+              "exists": true,
+              "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+              "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+              "status": "OK"
+            },
+            {
+              "id": 38,
+              "kind": "profile_extraction",
+              "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+              "exists": true,
+              "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+              "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+              "status": "OK"
+            },
+            {
+              "id": 39,
+              "kind": "username_cross_platform_search",
+              "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+              "exists": true,
+              "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+              "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+              "status": "OK"
+            },
+            {
+              "id": 40,
+              "kind": "username_cross_platform_search",
+              "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+              "exists": true,
+              "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+              "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+              "status": "OK"
+            },
+            {
+              "id": 41,
+              "kind": "public_historical_archive_lookup",
+              "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+              "exists": true,
+              "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+              "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+              "status": "OK"
+            },
+            {
+              "id": 42,
+              "kind": "public_historical_archive_lookup",
+              "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+              "exists": true,
+              "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+              "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+              "status": "OK"
+            },
+            {
+              "id": 43,
+              "kind": "network_graph_png",
+              "path": "data/smoke_test_final/graphs/network_latest.png",
+              "exists": true,
+              "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+              "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+              "status": "OK"
+            },
+            {
+              "id": 44,
+              "kind": "network_graph_gexf",
+              "path": "data/smoke_test_final/graphs/network_latest.gexf",
+              "exists": true,
+              "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+              "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+              "status": "OK"
+            },
+            {
+              "id": 46,
+              "kind": "network_graph_interactive_html",
+              "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+              "exists": true,
+              "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+              "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+              "status": "OK"
+            },
+            {
+              "id": 47,
+              "kind": "report_html",
+              "path": "data/smoke_test_final/reports/report_latest.html",
+              "exists": true,
+              "expected_sha256": "130788f8cea08f6ac5b33e32bea70eac1daeb5deffda2dea42eef19e835c8d61",
+              "current_sha256": "130788f8cea08f6ac5b33e32bea70eac1daeb5deffda2dea42eef19e835c8d61",
+              "status": "OK"
+            },
+            {
+              "id": 48,
+              "kind": "report_markdown",
+              "path": "data/smoke_test_final/reports/report_latest.md",
+              "exists": true,
+              "expected_sha256": "61eba3a3e724794f3d0b30baac90156861db7041928af218ffc7d529c63e6619",
+              "current_sha256": "61eba3a3e724794f3d0b30baac90156861db7041928af218ffc7d529c63e6619",
+              "status": "OK"
+            },
+            {
+              "id": 49,
+              "kind": "evidence_manifest",
+              "path": "data/smoke_test_final/exports/evidence_manifest.json",
+              "exists": true,
+              "expected_sha256": "7b34fc58df4e5b833967e7709217a62b3557f776261a637f464f570635e0995b",
+              "current_sha256": "5efd803bcfc5bac1d6d0d239df747b51379ae8b823cf77a7d5c958a3e5c5adbf",
+              "status": "CHANGED"
+            },
+            {
+              "id": 50,
+              "kind": "evidence_inventory_csv",
+              "path": "data/smoke_test_final/exports/evidence_inventory.csv",
+              "exists": true,
+              "expected_sha256": "0d40a86bd4f2bf288c155fa7bf4a48e97e45193b08d12dbe02ee60cd854d1c14",
+              "current_sha256": "32274b4dbac75d5f4fbd34af0a8f6b6603a4c0b68ed01bd077f4e1c33da5987a",
+              "status": "CHANGED"
+            },
+            {
+              "id": 51,
+              "kind": "evidence_bundle_zip",
+              "path": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+              "exists": true,
+              "expected_sha256": "0f11fb8bf1385a3e9ecc66d8152d444a179ab06d2fcf5cecc01e011b748e16fa",
+              "current_sha256": "39b5acbd29c0599fb6bed413df65a7d2e410adc2f1f824c6ec1e45d0c5f97d4a",
+              "status": "CHANGED"
+            },
+            {
+              "id": 45,
+              "kind": "network_graph_json",
+              "path": "data/smoke_test_final/graphs/network_latest.json",
+              "exists": true,
+              "expected_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+              "current_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+              "status": "OK"
+            }
+          ]
+        }
+      }
+    },
+    "verification": {
+      "case_id": "smoke_test_final",
+      "verified_at": "2026-05-08T21:06:21.208396Z",
+      "ok": 17,
+      "issues": 0,
+      "results": [
+        {
+          "id": 35,
+          "kind": "snapshot",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+          "exists": true,
+          "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+          "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+          "status": "OK"
+        },
+        {
+          "id": 36,
+          "kind": "profile_extraction",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+          "exists": true,
+          "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+          "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+          "status": "OK"
+        },
+        {
+          "id": 37,
+          "kind": "snapshot",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+          "exists": true,
+          "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+          "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+          "status": "OK"
+        },
+        {
+          "id": 38,
+          "kind": "profile_extraction",
+          "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+          "exists": true,
+          "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+          "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+          "status": "OK"
+        },
+        {
+          "id": 39,
+          "kind": "username_cross_platform_search",
+          "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+          "exists": true,
+          "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+          "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+          "status": "OK"
+        },
+        {
+          "id": 40,
+          "kind": "username_cross_platform_search",
+          "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+          "exists": true,
+          "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+          "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+          "status": "OK"
+        },
+        {
+          "id": 41,
+          "kind": "public_historical_archive_lookup",
+          "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+          "exists": true,
+          "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+          "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+          "status": "OK"
+        },
+        {
+          "id": 42,
+          "kind": "public_historical_archive_lookup",
+          "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+          "exists": true,
+          "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+          "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+          "status": "OK"
+        },
+        {
+          "id": 43,
+          "kind": "network_graph_png",
+          "path": "data/smoke_test_final/graphs/network_latest.png",
+          "exists": true,
+          "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+          "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+          "status": "OK"
+        },
+        {
+          "id": 44,
+          "kind": "network_graph_gexf",
+          "path": "data/smoke_test_final/graphs/network_latest.gexf",
+          "exists": true,
+          "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+          "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+          "status": "OK"
+        },
+        {
+          "id": 46,
+          "kind": "network_graph_interactive_html",
+          "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+          "exists": true,
+          "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+          "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+          "status": "OK"
+        },
+        {
+          "id": 45,
+          "kind": "network_graph_json",
+          "path": "data/smoke_test_final/graphs/network_latest.json",
+          "exists": true,
+          "expected_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+          "current_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+          "status": "OK"
+        },
+        {
+          "id": 47,
+          "kind": "report_html",
+          "path": "data/smoke_test_final/reports/report_latest.html",
+          "exists": true,
+          "expected_sha256": "627d58cdf59137b1db2c2288c1ef828bfc0757a4b64e1dee76f25b10b7f9c6fc",
+          "current_sha256": "627d58cdf59137b1db2c2288c1ef828bfc0757a4b64e1dee76f25b10b7f9c6fc",
+          "status": "OK"
+        },
+        {
+          "id": 48,
+          "kind": "report_markdown",
+          "path": "data/smoke_test_final/reports/report_latest.md",
+          "exists": true,
+          "expected_sha256": "d9d92986a7baf1a5746ec8116cf0fcc82094a9dcf8971aa0813181f76b99f5af",
+          "current_sha256": "d9d92986a7baf1a5746ec8116cf0fcc82094a9dcf8971aa0813181f76b99f5af",
+          "status": "OK"
+        },
+        {
+          "id": 49,
+          "kind": "evidence_manifest",
+          "path": "data/smoke_test_final/exports/evidence_manifest.json",
+          "exists": true,
+          "expected_sha256": "97287030dacc01d5bb4da21c52b7a4045669e0bb3a9a68d53b4f331d9755aa86",
+          "current_sha256": "97287030dacc01d5bb4da21c52b7a4045669e0bb3a9a68d53b4f331d9755aa86",
+          "status": "OK"
+        },
+        {
+          "id": 50,
+          "kind": "evidence_inventory_csv",
+          "path": "data/smoke_test_final/exports/evidence_inventory.csv",
+          "exists": true,
+          "expected_sha256": "c42599bff6e538f77246e949d217d6d09eb3024e95cd9c3bc0abb446cf0af8b1",
+          "current_sha256": "c42599bff6e538f77246e949d217d6d09eb3024e95cd9c3bc0abb446cf0af8b1",
+          "status": "OK"
+        },
+        {
+          "id": 51,
+          "kind": "evidence_bundle_zip",
+          "path": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+          "exists": true,
+          "expected_sha256": "0580846c3fc9204031043df733545c8e6e9af5b29daf3cc6c1ab3d8d6381dcff",
+          "current_sha256": "0580846c3fc9204031043df733545c8e6e9af5b29daf3cc6c1ab3d8d6381dcff",
+          "status": "OK"
+        }
+      ]
+    },
+    "bundle": {
+      "csv": "data/smoke_test_final/exports/evidence_inventory.csv",
+      "manifest": "data/smoke_test_final/exports/evidence_manifest.json",
+      "bundle": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip"
+    },
+    "workflow": {
+      "case_id": "smoke_test_final",
+      "completed": 5,
+      "total": 7,
+      "percent": 71,
+      "steps": [
+        {
+          "name": "Create Case",
+          "done": true
+        },
+        {
+          "name": "Add Targets",
+          "done": false
+        },
+        {
+          "name": "Collect Evidence",
+          "done": true
+        },
+        {
+          "name": "Analyze Graph",
+          "done": true
+        },
+        {
+          "name": "Review Evidence",
+          "done": false
+        },
+        {
+          "name": "Generate Report",
+          "done": true
+        },
+        {
+          "name": "Export Bundle",
+          "done": true
+        }
+      ]
+    },
+    "health": {
+      "case_id": "smoke_test_final",
+      "grade": "Ready",
+      "warnings": [],
+      "suggestions": [
+        "Add targets in Target Manager so every collection is tied to a case scope.",
+        "Add at least one analyst note before final export to document review status."
+      ],
+      "verification": {
+        "case_id": "smoke_test_final",
+        "verified_at": "2026-05-08T21:06:21.262966Z",
+        "ok": 17,
+        "issues": 0,
+        "results": [
+          {
+            "id": 35,
+            "kind": "snapshot",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+            "exists": true,
+            "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+            "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+            "status": "OK"
+          },
+          {
+            "id": 36,
+            "kind": "profile_extraction",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+            "exists": true,
+            "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+            "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+            "status": "OK"
+          },
+          {
+            "id": 37,
+            "kind": "snapshot",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+            "exists": true,
+            "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+            "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+            "status": "OK"
+          },
+          {
+            "id": 38,
+            "kind": "profile_extraction",
+            "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+            "exists": true,
+            "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+            "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+            "status": "OK"
+          },
+          {
+            "id": 39,
+            "kind": "username_cross_platform_search",
+            "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+            "exists": true,
+            "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+            "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+            "status": "OK"
+          },
+          {
+            "id": 40,
+            "kind": "username_cross_platform_search",
+            "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+            "exists": true,
+            "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+            "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+            "status": "OK"
+          },
+          {
+            "id": 41,
+            "kind": "public_historical_archive_lookup",
+            "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+            "exists": true,
+            "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+            "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+            "status": "OK"
+          },
+          {
+            "id": 42,
+            "kind": "public_historical_archive_lookup",
+            "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+            "exists": true,
+            "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+            "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+            "status": "OK"
+          },
+          {
+            "id": 43,
+            "kind": "network_graph_png",
+            "path": "data/smoke_test_final/graphs/network_latest.png",
+            "exists": true,
+            "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+            "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+            "status": "OK"
+          },
+          {
+            "id": 44,
+            "kind": "network_graph_gexf",
+            "path": "data/smoke_test_final/graphs/network_latest.gexf",
+            "exists": true,
+            "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+            "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+            "status": "OK"
+          },
+          {
+            "id": 46,
+            "kind": "network_graph_interactive_html",
+            "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+            "exists": true,
+            "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+            "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+            "status": "OK"
+          },
+          {
+            "id": 45,
+            "kind": "network_graph_json",
+            "path": "data/smoke_test_final/graphs/network_latest.json",
+            "exists": true,
+            "expected_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+            "current_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+            "status": "OK"
+          },
+          {
+            "id": 47,
+            "kind": "report_html",
+            "path": "data/smoke_test_final/reports/report_latest.html",
+            "exists": true,
+            "expected_sha256": "627d58cdf59137b1db2c2288c1ef828bfc0757a4b64e1dee76f25b10b7f9c6fc",
+            "current_sha256": "627d58cdf59137b1db2c2288c1ef828bfc0757a4b64e1dee76f25b10b7f9c6fc",
+            "status": "OK"
+          },
+          {
+            "id": 48,
+            "kind": "report_markdown",
+            "path": "data/smoke_test_final/reports/report_latest.md",
+            "exists": true,
+            "expected_sha256": "d9d92986a7baf1a5746ec8116cf0fcc82094a9dcf8971aa0813181f76b99f5af",
+            "current_sha256": "d9d92986a7baf1a5746ec8116cf0fcc82094a9dcf8971aa0813181f76b99f5af",
+            "status": "OK"
+          },
+          {
+            "id": 49,
+            "kind": "evidence_manifest",
+            "path": "data/smoke_test_final/exports/evidence_manifest.json",
+            "exists": true,
+            "expected_sha256": "97287030dacc01d5bb4da21c52b7a4045669e0bb3a9a68d53b4f331d9755aa86",
+            "current_sha256": "97287030dacc01d5bb4da21c52b7a4045669e0bb3a9a68d53b4f331d9755aa86",
+            "status": "OK"
+          },
+          {
+            "id": 50,
+            "kind": "evidence_inventory_csv",
+            "path": "data/smoke_test_final/exports/evidence_inventory.csv",
+            "exists": true,
+            "expected_sha256": "c42599bff6e538f77246e949d217d6d09eb3024e95cd9c3bc0abb446cf0af8b1",
+            "current_sha256": "c42599bff6e538f77246e949d217d6d09eb3024e95cd9c3bc0abb446cf0af8b1",
+            "status": "OK"
+          },
+          {
+            "id": 51,
+            "kind": "evidence_bundle_zip",
+            "path": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+            "exists": true,
+            "expected_sha256": "0580846c3fc9204031043df733545c8e6e9af5b29daf3cc6c1ab3d8d6381dcff",
+            "current_sha256": "0580846c3fc9204031043df733545c8e6e9af5b29daf3cc6c1ab3d8d6381dcff",
+            "status": "OK"
+          }
+        ]
+      },
+      "workflow": {
+        "case_id": "smoke_test_final",
+        "completed": 5,
+        "total": 7,
+        "percent": 71,
+        "steps": [
+          {
+            "name": "Create Case",
+            "done": true
+          },
+          {
+            "name": "Add Targets",
+            "done": false
+          },
+          {
+            "name": "Collect Evidence",
+            "done": true
+          },
+          {
+            "name": "Analyze Graph",
+            "done": true
+          },
+          {
+            "name": "Review Evidence",
+            "done": false
+          },
+          {
+            "name": "Generate Report",
+            "done": true
+          },
+          {
+            "name": "Export Bundle",
+            "done": true
+          }
+        ]
+      }
+    }
+  },
+  "verification": {
+    "case_id": "smoke_test_final",
+    "verified_at": "2026-05-08T21:06:21.285306Z",
+    "ok": 17,
+    "issues": 0,
+    "results": [
+      {
+        "id": 35,
+        "kind": "snapshot",
+        "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo",
+        "exists": true,
+        "expected_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+        "current_sha256": "e16c864ac12706322473df097d9cd7a8fc009384bd3ee1a0e9efd57c88adcca3",
+        "status": "OK"
+      },
+      {
+        "id": 36,
+        "kind": "profile_extraction",
+        "path": "data/smoke_test_final/snapshots/2026-05-08T210616490239Z_example.com_demo/profile_extraction.json",
+        "exists": true,
+        "expected_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+        "current_sha256": "e52bfa02418bb34ce063abbd278d33a01040a5901e2618a05f3621a3745e0d24",
+        "status": "OK"
+      },
+      {
+        "id": 37,
+        "kind": "snapshot",
+        "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo",
+        "exists": true,
+        "expected_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+        "current_sha256": "697263421ab237b4d52ec0ae2900ae28884fa08d6772e20350c4d2d22e1a6357",
+        "status": "OK"
+      },
+      {
+        "id": 38,
+        "kind": "profile_extraction",
+        "path": "data/smoke_test_final/snapshots/2026-05-08T210616586497Z_www.iana.org_demo/profile_extraction.json",
+        "exists": true,
+        "expected_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+        "current_sha256": "6b940635c8b95ffebc7a1c0048e4d2a2a9104fe0ae2dcb7d5efb556932cadb63",
+        "status": "OK"
+      },
+      {
+        "id": 39,
+        "kind": "username_cross_platform_search",
+        "path": "data/smoke_test_final/cache/username_example_demo_2026-05-08T210616.676221Z.json",
+        "exists": true,
+        "expected_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+        "current_sha256": "b7958d528a56616aae7f0156d0e9844f2244c2a3a185934b2955938e1dbf1f50",
+        "status": "OK"
+      },
+      {
+        "id": 40,
+        "kind": "username_cross_platform_search",
+        "path": "data/smoke_test_final/cache/username_iana_demo_2026-05-08T210616.685611Z.json",
+        "exists": true,
+        "expected_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+        "current_sha256": "4d2746b33c2f03a850897f495f799bfb384006796b0b3a59a800914d7d98ecdb",
+        "status": "OK"
+      },
+      {
+        "id": 41,
+        "kind": "public_historical_archive_lookup",
+        "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.761763Z.json",
+        "exists": true,
+        "expected_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+        "current_sha256": "31edbe46ecd9eaddfd08c5f18f5e5e0e15dc05bf4ec355bce413f9b5500c3a45",
+        "status": "OK"
+      },
+      {
+        "id": 42,
+        "kind": "public_historical_archive_lookup",
+        "path": "data/smoke_test_final/cache/archive_lookup_demo_2026-05-08T210616.774310Z.json",
+        "exists": true,
+        "expected_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+        "current_sha256": "57076ed5c24b89488a9d507d84e484d09315613be4fe7acc9ee8e0cc328fbea0",
+        "status": "OK"
+      },
+      {
+        "id": 43,
+        "kind": "network_graph_png",
+        "path": "data/smoke_test_final/graphs/network_latest.png",
+        "exists": true,
+        "expected_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+        "current_sha256": "7913c107ad32077fb4c530891100a917ebcb75ab6abae0ea48e823549a383a49",
+        "status": "OK"
+      },
+      {
+        "id": 44,
+        "kind": "network_graph_gexf",
+        "path": "data/smoke_test_final/graphs/network_latest.gexf",
+        "exists": true,
+        "expected_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+        "current_sha256": "4a2268393018d3a35953edd4c16ec38afdc05f1f85396416ddc5bdf616856a95",
+        "status": "OK"
+      },
+      {
+        "id": 46,
+        "kind": "network_graph_interactive_html",
+        "path": "data/smoke_test_final/graphs/network_interactive_latest.html",
+        "exists": true,
+        "expected_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+        "current_sha256": "edd1045da7912f8ae2c3013b81b38c7eb4f94b60ee689a6155bc31efa86f1824",
+        "status": "OK"
+      },
+      {
+        "id": 45,
+        "kind": "network_graph_json",
+        "path": "data/smoke_test_final/graphs/network_latest.json",
+        "exists": true,
+        "expected_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+        "current_sha256": "7a5ca64c09ee3f9ed859f3b2d861b3fc84f0ada17778b1d4101dd96451bba3e0",
+        "status": "OK"
+      },
+      {
+        "id": 47,
+        "kind": "report_html",
+        "path": "data/smoke_test_final/reports/report_latest.html",
+        "exists": true,
+        "expected_sha256": "627d58cdf59137b1db2c2288c1ef828bfc0757a4b64e1dee76f25b10b7f9c6fc",
+        "current_sha256": "627d58cdf59137b1db2c2288c1ef828bfc0757a4b64e1dee76f25b10b7f9c6fc",
+        "status": "OK"
+      },
+      {
+        "id": 48,
+        "kind": "report_markdown",
+        "path": "data/smoke_test_final/reports/report_latest.md",
+        "exists": true,
+        "expected_sha256": "d9d92986a7baf1a5746ec8116cf0fcc82094a9dcf8971aa0813181f76b99f5af",
+        "current_sha256": "d9d92986a7baf1a5746ec8116cf0fcc82094a9dcf8971aa0813181f76b99f5af",
+        "status": "OK"
+      },
+      {
+        "id": 49,
+        "kind": "evidence_manifest",
+        "path": "data/smoke_test_final/exports/evidence_manifest.json",
+        "exists": true,
+        "expected_sha256": "97287030dacc01d5bb4da21c52b7a4045669e0bb3a9a68d53b4f331d9755aa86",
+        "current_sha256": "97287030dacc01d5bb4da21c52b7a4045669e0bb3a9a68d53b4f331d9755aa86",
+        "status": "OK"
+      },
+      {
+        "id": 50,
+        "kind": "evidence_inventory_csv",
+        "path": "data/smoke_test_final/exports/evidence_inventory.csv",
+        "exists": true,
+        "expected_sha256": "c42599bff6e538f77246e949d217d6d09eb3024e95cd9c3bc0abb446cf0af8b1",
+        "current_sha256": "c42599bff6e538f77246e949d217d6d09eb3024e95cd9c3bc0abb446cf0af8b1",
+        "status": "OK"
+      },
+      {
+        "id": 51,
+        "kind": "evidence_bundle_zip",
+        "path": "data/smoke_test_final/exports/smoke_test_final_evidence_bundle.zip",
+        "exists": true,
+        "expected_sha256": "0580846c3fc9204031043df733545c8e6e9af5b29daf3cc6c1ab3d8d6381dcff",
+        "current_sha256": "0580846c3fc9204031043df733545c8e6e9af5b29daf3cc6c1ab3d8d6381dcff",
+        "status": "OK"
+      }
+    ]
+  },
+  "passed": true
+}

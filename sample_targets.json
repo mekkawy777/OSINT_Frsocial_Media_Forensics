@@ -1,0 +1,8 @@
+{
+  "case_id": "demo_case",
+  "urls": [
+    "https://example.com",
+    "https://www.iana.org/domains/example"
+  ],
+  "usernames": ["example", "iana"]
+}
